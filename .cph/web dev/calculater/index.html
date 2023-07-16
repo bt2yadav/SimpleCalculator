@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" class="display" readonly>
+    <br>
+    <input type="button" value="1" onclick="appendToDisplay('1')" class="button">
+    <input type="button" value="2" onclick="appendToDisplay('2')" class="button">
+    <input type="button" value="3" onclick="appendToDisplay('3')" class="button">
+    <input type="button" value="+" onclick="appendToDisplay('+')" class="button">
+    <br>
+    <input type="button" value="4" onclick="appendToDisplay('4')" class="button">
+    <input type="button" value="5" onclick="appendToDisplay('5')" class="button">
+    <input type="button" value="6" onclick="appendToDisplay('6')" class="button">
+    <input type="button" value="-" onclick="appendToDisplay('-')" class="button">
+    <br>
+    <input type="button" value="7" onclick="appendToDisplay('7')" class="button">
+    <input type="button" value="8" onclick="appendToDisplay('8')" class="button">
+    <input type="button" value="9" onclick="appendToDisplay('9')" class="button">
+    <input type="button" value="*" onclick="appendToDisplay('*')" class="button">
+    <br>
+    <input type="button" value="0" onclick="appendToDisplay('0')" class="button">
+    <input type="button" value="." onclick="appendToDisplay('.')" class="button">
+    <input type="button" value="=" onclick="calculate()" class="button equal-button">
+    <input type="button" value="/" onclick="appendToDisplay('/')" class="button">
+    <br>
+    <input type="button" value="Clear" onclick="clearDisplay()" class="button clear-button">
+  </div>
+
+ 
+</body>
+</html>
